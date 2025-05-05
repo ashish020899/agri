@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+        }
+
+        .upload-area {
+            border: 2px dashed #e5e7eb;
+            transition: all 0.3s ease;
+        }
+
+        .upload-area:hover {
+            border-color: #16a34a;
+        }
